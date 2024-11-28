@@ -48,16 +48,6 @@
 			path = nameLove;
 			sourceTree = "<group>";
 		};
-		485988642CF844D900CAA581 /* nameLoveTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = nameLoveTests;
-			sourceTree = "<group>";
-		};
-		4859886E2CF844D900CAA581 /* nameLoveUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = nameLoveUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				4859884D2CF844D600CAA581 /* nameLove */,
-				485988642CF844D900CAA581 /* nameLoveTests */,
-				4859886E2CF844D900CAA581 /* nameLoveUITests */,
 				4859884C2CF844D600CAA581 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				485988632CF844D900CAA581 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				485988642CF844D900CAA581 /* nameLoveTests */,
-			);
 			name = nameLoveTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				4859886D2CF844D900CAA581 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				4859886E2CF844D900CAA581 /* nameLoveUITests */,
 			);
 			name = nameLoveUITests;
 			packageProductDependencies = (
