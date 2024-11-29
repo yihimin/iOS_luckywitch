@@ -24,28 +24,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4859884B2CF844D600CAA581 /* nameLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nameLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		485988612CF844D900CAA581 /* nameLoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nameLoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4859886B2CF844D900CAA581 /* nameLoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nameLoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4859884B2CF844D600CAA581 /* luckywitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = luckywitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		485988612CF844D900CAA581 /* luckywitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = luckywitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4859886B2CF844D900CAA581 /* luckywitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = luckywitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		485988732CF844D900CAA581 /* Exceptions for "nameLove" folder in "nameLove" target */ = {
+		485988732CF844D900CAA581 /* Exceptions for "luckywitch" folder in "luckywitch" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 4859884A2CF844D600CAA581 /* nameLove */;
+			target = 4859884A2CF844D600CAA581 /* luckywitch */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4859884D2CF844D600CAA581 /* nameLove */ = {
+		4859884D2CF844D600CAA581 /* luckywitch */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				485988732CF844D900CAA581 /* Exceptions for "nameLove" folder in "nameLove" target */,
+				485988732CF844D900CAA581 /* Exceptions for "luckywitch" folder in "luckywitch" target */,
 			);
-			path = nameLove;
+			path = luckywitch;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -78,7 +78,7 @@
 		485988422CF844D600CAA581 = {
 			isa = PBXGroup;
 			children = (
-				4859884D2CF844D600CAA581 /* nameLove */,
+				4859884D2CF844D600CAA581 /* luckywitch */,
 				4859884C2CF844D600CAA581 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,9 +86,9 @@
 		4859884C2CF844D600CAA581 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4859884B2CF844D600CAA581 /* nameLove.app */,
-				485988612CF844D900CAA581 /* nameLoveTests.xctest */,
-				4859886B2CF844D900CAA581 /* nameLoveUITests.xctest */,
+				4859884B2CF844D600CAA581 /* luckywitch.app */,
+				485988612CF844D900CAA581 /* luckywitchTests.xctest */,
+				4859886B2CF844D900CAA581 /* luckywitchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,9 +96,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4859884A2CF844D600CAA581 /* nameLove */ = {
+		4859884A2CF844D600CAA581 /* luckywitch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 485988742CF844D900CAA581 /* Build configuration list for PBXNativeTarget "nameLove" */;
+			buildConfigurationList = 485988742CF844D900CAA581 /* Build configuration list for PBXNativeTarget "luckywitch" */;
 			buildPhases = (
 				485988472CF844D600CAA581 /* Sources */,
 				485988482CF844D600CAA581 /* Frameworks */,
@@ -109,18 +109,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				4859884D2CF844D600CAA581 /* nameLove */,
+				4859884D2CF844D600CAA581 /* luckywitch */,
 			);
-			name = nameLove;
+			name = luckywitch;
 			packageProductDependencies = (
 			);
 			productName = nameLove;
-			productReference = 4859884B2CF844D600CAA581 /* nameLove.app */;
+			productReference = 4859884B2CF844D600CAA581 /* luckywitch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		485988602CF844D900CAA581 /* nameLoveTests */ = {
+		485988602CF844D900CAA581 /* luckywitchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 485988792CF844D900CAA581 /* Build configuration list for PBXNativeTarget "nameLoveTests" */;
+			buildConfigurationList = 485988792CF844D900CAA581 /* Build configuration list for PBXNativeTarget "luckywitchTests" */;
 			buildPhases = (
 				4859885D2CF844D900CAA581 /* Sources */,
 				4859885E2CF844D900CAA581 /* Frameworks */,
@@ -131,16 +131,16 @@
 			dependencies = (
 				485988632CF844D900CAA581 /* PBXTargetDependency */,
 			);
-			name = nameLoveTests;
+			name = luckywitchTests;
 			packageProductDependencies = (
 			);
 			productName = nameLoveTests;
-			productReference = 485988612CF844D900CAA581 /* nameLoveTests.xctest */;
+			productReference = 485988612CF844D900CAA581 /* luckywitchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4859886A2CF844D900CAA581 /* nameLoveUITests */ = {
+		4859886A2CF844D900CAA581 /* luckywitchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4859887C2CF844D900CAA581 /* Build configuration list for PBXNativeTarget "nameLoveUITests" */;
+			buildConfigurationList = 4859887C2CF844D900CAA581 /* Build configuration list for PBXNativeTarget "luckywitchUITests" */;
 			buildPhases = (
 				485988672CF844D900CAA581 /* Sources */,
 				485988682CF844D900CAA581 /* Frameworks */,
@@ -151,11 +151,11 @@
 			dependencies = (
 				4859886D2CF844D900CAA581 /* PBXTargetDependency */,
 			);
-			name = nameLoveUITests;
+			name = luckywitchUITests;
 			packageProductDependencies = (
 			);
 			productName = nameLoveUITests;
-			productReference = 4859886B2CF844D900CAA581 /* nameLoveUITests.xctest */;
+			productReference = 4859886B2CF844D900CAA581 /* luckywitchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 485988462CF844D600CAA581 /* Build configuration list for PBXProject "nameLove" */;
+			buildConfigurationList = 485988462CF844D600CAA581 /* Build configuration list for PBXProject "luckywitch" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,9 +195,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4859884A2CF844D600CAA581 /* nameLove */,
-				485988602CF844D900CAA581 /* nameLoveTests */,
-				4859886A2CF844D900CAA581 /* nameLoveUITests */,
+				4859884A2CF844D600CAA581 /* luckywitch */,
+				485988602CF844D900CAA581 /* luckywitchTests */,
+				4859886A2CF844D900CAA581 /* luckywitchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,12 +253,12 @@
 /* Begin PBXTargetDependency section */
 		485988632CF844D900CAA581 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4859884A2CF844D600CAA581 /* nameLove */;
+			target = 4859884A2CF844D600CAA581 /* luckywitch */;
 			targetProxy = 485988622CF844D900CAA581 /* PBXContainerItemProxy */;
 		};
 		4859886D2CF844D900CAA581 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4859884A2CF844D600CAA581 /* nameLove */;
+			target = 4859884A2CF844D600CAA581 /* luckywitch */;
 			targetProxy = 4859886C2CF844D900CAA581 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -451,7 +451,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nameLove.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nameLove";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/luckywitch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/luckywitch";
 			};
 			name = Debug;
 		};
@@ -469,7 +469,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nameLove.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nameLove";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/luckywitch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/luckywitch";
 			};
 			name = Release;
 		};
@@ -508,7 +508,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		485988462CF844D600CAA581 /* Build configuration list for PBXProject "nameLove" */ = {
+		485988462CF844D600CAA581 /* Build configuration list for PBXProject "luckywitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				485988772CF844D900CAA581 /* Debug */,
@@ -517,7 +517,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		485988742CF844D900CAA581 /* Build configuration list for PBXNativeTarget "nameLove" */ = {
+		485988742CF844D900CAA581 /* Build configuration list for PBXNativeTarget "luckywitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				485988752CF844D900CAA581 /* Debug */,
@@ -526,7 +526,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		485988792CF844D900CAA581 /* Build configuration list for PBXNativeTarget "nameLoveTests" */ = {
+		485988792CF844D900CAA581 /* Build configuration list for PBXNativeTarget "luckywitchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4859887A2CF844D900CAA581 /* Debug */,
@@ -535,7 +535,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4859887C2CF844D900CAA581 /* Build configuration list for PBXNativeTarget "nameLoveUITests" */ = {
+		4859887C2CF844D900CAA581 /* Build configuration list for PBXNativeTarget "luckywitchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4859887D2CF844D900CAA581 /* Debug */,
