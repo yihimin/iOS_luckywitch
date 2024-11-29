@@ -4,6 +4,7 @@ class NumberViewController: UIViewController {
 
     @IBOutlet weak var tensLabel: UILabel! // 십의 자리 라벨
     @IBOutlet weak var onesLabel: UILabel! // 일의 자리 라벨
+    @IBOutlet weak var resultLabel: UILabel! // 최종 숫자 라벨
     @IBOutlet weak var spinButton: UIButton! // 확인하기/다시하기 버튼
 
     private var isSpinning = false // 회전 상태 확인
@@ -19,6 +20,7 @@ class NumberViewController: UIViewController {
     private func startSpin() {
         isSpinning = true
         spinButton.setTitle("다시하기", for: .normal) // 버튼 텍스트 변경
+        resultLabel.text = "행운의 숫자는?" // 최종 숫자 라벨 초기화
 
         // 십의 자리 애니메이션
         spinLabel(label: tensLabel, duration: 2.0) { [weak self] finalTens in
@@ -27,7 +29,7 @@ class NumberViewController: UIViewController {
             self.spinLabel(label: self.onesLabel, duration: 2.0) { finalOnes in
                 // 최종 숫자 결정
                 let finalNumber = finalTens * 10 + finalOnes
-                print("최종 숫자: \(finalNumber)") // 디버그용
+                self.resultLabel.text = "\(finalNumber)!" // 최종 숫자 업데이트
             }
         }
     }
@@ -57,6 +59,7 @@ class NumberViewController: UIViewController {
         spinButton.setTitle("확인하기", for: .normal) // 버튼 텍스트 초기화
         tensLabel.text = "0" // 십의 자리 초기화
         onesLabel.text = "0" // 일의 자리 초기화
+        resultLabel.text = "행운의 숫자는?" // 결과 초기화
     }
 
     override func viewDidLoad() {
